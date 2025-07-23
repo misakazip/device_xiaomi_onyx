@@ -26,9 +26,8 @@ BOARD_USES_RECOVERY_AS_BOOT := true
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
-TARGET_CPU_ABI := arm64-v8a
-TARGET_CPU_ABI2 := 
-TARGET_CPU_VARIANT := generic
+TARGET_CPU_ABI := arm64-v8a 
+TARGET_CPU_VARIANT := oryon
 TARGET_CPU_VARIANT_RUNTIME := oryon
 
 # Bootloader
@@ -119,4 +118,4 @@ BOARD_AVB_VENDOR_BOOT_ROLLBACK_INDEX_LOCATION := 1
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
-include vendor/xiaomi/generic/BoardConfigVendor.mk
+include vendor/xiaomi/onyx/BoardConfigVendor.mk

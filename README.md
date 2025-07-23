@@ -1,4 +1,4 @@
-# Android device tree for Android mainline (generic)
+# Android device tree for POCO F7 (onyx)
 
 ```
 #
