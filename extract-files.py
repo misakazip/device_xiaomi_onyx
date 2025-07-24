@@ -1,4 +1,3 @@
-
 #!/usr/bin/env -S PYTHONPATH=../../../tools/extract-utils python3
 #
 # SPDX-FileCopyrightText: The LineageOS Project
@@ -49,6 +48,6 @@ module = ExtractUtilsModule(
 
 if __name__ == '__main__':
     utils = ExtractUtils.device_with_common(
-        module, 'sm7325-common', module.vendor
+        module, 'sm8750-common', module.vendor
     )
     utils.run()
